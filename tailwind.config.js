@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       screens: {
@@ -25,8 +22,16 @@ export default {
       fontFamily: {
         rubic: "'Rubik', sans-serif",
       },
+      animation: {
+        shake: "shake 100ms 3",
+      },
+      keyframes: {
+        shake: {
+          "0%,100%": { transform: "translateX(0px)" },
+          "50%": { transform: "translateX(4px)" },
+        },
+      },
     },
   },
   plugins: [],
-}
-
+};
