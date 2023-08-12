@@ -9,7 +9,7 @@ const Hero = () => {
       <section className="hero mb-8 mt-[7rem] overflow-hidden px-4 py-6 md:px-10 lg:mt-[8rem] lg:grid lg:grid-cols-2 lg:items-center lg:justify-center lg:gap-8 lg:px-14">
         <div className="relative lg:order-2">
           <img src={heroIllustration} alt="illustration" className="mx-auto" />
-
+          <div className="blob blob-right"></div>
         </div>
         <div className="mt-10 text-center lg:order-1 lg:text-left">
           <h1 className="mx-auto mb-5 w-11/12 text-2xl font-medium text-dark-blue sm:text-3xl lg:mx-0 lg:text-4xl xl:text-5xl">
