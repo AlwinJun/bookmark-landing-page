@@ -6,7 +6,8 @@ h2 {
   @apply mb-2 text-xl font-medium text-dark-blue lg:text-2xl;
 }
 
-.desktop-nav {
+.desktop-nav,
+.hero {
   @apply mx-auto max-w-8xl px-4 text-center lg:px-14;
 }
 
