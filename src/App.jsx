@@ -1,6 +1,8 @@
 import Hero from "components/Hero";
 import FeaturesTab from "components/FeaturesTab";
 import DownloadExtensions from "components/DownloadExtensions";
+import FAQs from "components/FAQs";
+import Contact from "components/Contact";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Hero />
       <FeaturesTab />
       <DownloadExtensions />
+      <FAQs />
+      <Contact />
     </div>
   );
 }
