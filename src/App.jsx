@@ -3,6 +3,7 @@ import FeaturesTab from "components/FeaturesTab";
 import DownloadExtensions from "components/DownloadExtensions";
 import FAQs from "components/FAQs";
 import Contact from "components/Contact";
+import Footer from "components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <DownloadExtensions />
       <FAQs />
       <Contact />
+      <Footer />
     </div>
   );
 }
