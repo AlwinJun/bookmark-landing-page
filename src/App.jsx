@@ -1,4 +1,12 @@
-export default function App() {
-  return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+import Navbar from "components/Navbar";
+
+
+function App() {
+  return (
+    <div className="font-rubic text-grayish-blue" id="top">
+       <Navbar />
+    </div>
+  );
 }
 
+export default App;
