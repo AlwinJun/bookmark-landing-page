@@ -23,14 +23,14 @@ const Hero = () => {
           <div className="flex flex-col justify-center  gap-4  xsm:flex-row xsm:items-center lg:justify-start">
             <Buttons
               type="button"
-              btnClass="rounded-md bg-soft-blue px-3 py-2 text-base text-white lg:px-4 lg:py-2"
+              btnClass="rounded-md bg-soft-blue px-3 py-2 text-base text-white lg:px-4 lg:py-2 hover:border hover:border-soft-blue hover:text-soft-blue hover:bg-transparent"
               link="#"
               text="Get it on Chrome"
               linkClass="text-sm lg:text-base xl:text-primary"
             />
             <Buttons
               type="button"
-              btnClass="rounded-md bg-white px-3 py-2 text-base text-dark-blue shadow-xl lg:px-4 lg:py-2"
+              btnClass="rounded-md bg-white px-3 py-2 text-base text-dark-blue shadow-xl lg:px-4 lg:py-2 hover:border hover:border-dark-blue hover:text-dark-blue hover:bg-transparent"
               link="#"
               text=" Get it on Firefox"
               linkClass="text-sm lg:text-base xl:text-primary"

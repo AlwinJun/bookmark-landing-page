@@ -8,7 +8,7 @@ export default function Accordion({ data }) {
     return (
       <article className="border-b border-slate-300 py-4" key={id}>
         <div
-          className="flex items-center justify-between  hover:cursor-pointer"
+          className="group flex items-center  justify-between hover:cursor-pointer "
           // Return null if the accordion is already open
           //  Else return the click accordion to be shown
           onClick={() =>
@@ -17,7 +17,7 @@ export default function Accordion({ data }) {
             )
           }
         >
-          <h4 className="w-3/4 text-left text-sm font-medium text-dark-blue sm:text-base xl:text-primary">
+          <h4 className="w-3/4 text-left text-sm font-medium text-dark-blue group-hover:text-soft-red sm:text-base xl:text-primary">
             {question}
           </h4>
           <span>

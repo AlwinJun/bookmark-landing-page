@@ -75,10 +75,11 @@ const Navbar = () => {
                 { text: "Pricing", target: "#pricing" },
                 { text: "Contact", target: "#contact" },
               ].map(({ text, target }, index) => (
-                <div key={index + 1}>
-                  <a href={target}>
-                    <li className="mb-3 text-[1.3rem] font-normal">{text}</li>
-                  </a>
+                <div key={index}>
+                  <li className="mb-3 text-[1.3rem] font-normal">
+                    <a href={target}>{text}</a>
+                  </li>
+
                   <hr className="border-grayish-blue" />
                 </div>
               ))}
@@ -113,14 +114,14 @@ const Navbar = () => {
               { text: "Pricing", target: "#pricing" },
               { text: "Contact", target: "#contact" },
             ].map(({ text, target }, index) => (
-              <a href={target} key={index + 1}>
-                <li>{text}</li>
-              </a>
+              <li key={index} className="hover:text-soft-red">
+                <a href={target}>{text}</a>
+              </li>
             ))}
           </ul>
           <Buttons
             type="button"
-            btnClass="rounded-md bg-soft-red px-6 py-1 text-white shadow-md"
+            btnClass="rounded-md bg-soft-red px-6 py-1 text-white shadow-md hover:border hover:border-soft-red hover:text-soft-red hover:bg-transparent"
             text="Login"
           />
         </div>

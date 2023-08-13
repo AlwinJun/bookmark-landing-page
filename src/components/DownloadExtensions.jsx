@@ -1,3 +1,5 @@
+import Buttons from "components/Buttons";
+
 import chrome from "images/logo-chrome.svg";
 import firefox from "images/logo-firefox.svg";
 import opera from "images/logo-opera.svg";
@@ -22,12 +24,11 @@ export default function DownloadExtensions() {
           </div>
           <img src={dots} alt="dots" />
           <div className="p-4">
-            <button
+            <Buttons
               type="button"
-              className="text-white rounded-md bg-soft-blue px-4 py-2 text-xs"
-            >
-              Add & Install Extension
-            </button>
+              btnClass="rounded-md bg-soft-blue px-4 py-2 text-xs text-white hover:border hover:border-soft-blue hover:text-soft-blue hover:bg-transparent"
+              text=" Add & Install Extension"
+            />
           </div>
         </article>
         <article className=" h-fit max-w-[16rem]  shadow-xl md:self-center">
@@ -40,12 +41,11 @@ export default function DownloadExtensions() {
           </div>
           <img src={dots} alt="dots" />
           <div className="p-4">
-            <button
+            <Buttons
               type="button"
-              className="text-white rounded-md bg-soft-blue px-4 py-2 text-xs"
-            >
-              Add & Install Extension
-            </button>
+              btnClass="rounded-md bg-soft-blue px-4 py-2 text-xs text-white hover:border hover:border-soft-blue hover:text-soft-blue hover:bg-transparent"
+              text=" Add & Install Extension"
+            />
           </div>
         </article>
         <article className=" h-fit max-w-[16rem]  shadow-xl md:self-end">
@@ -58,12 +58,11 @@ export default function DownloadExtensions() {
           </div>
           <img src={dots} alt="dots" />
           <div className="p-4">
-            <button
+            <Buttons
               type="button"
-              className="text-white rounded-md bg-soft-blue px-4 py-2 text-xs"
-            >
-              Add & Install Extension
-            </button>
+              btnClass="rounded-md bg-soft-blue px-4 py-2 text-xs text-white hover:border hover:border-soft-blue hover:text-soft-blue hover:bg-transparent"
+              text=" Add & Install Extension"
+            />
           </div>
         </article>
       </div>

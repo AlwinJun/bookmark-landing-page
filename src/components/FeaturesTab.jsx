@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Buttons from "components/Buttons";
 import data from "src/data";
 
 export default function FeaturesTab() {
@@ -25,13 +26,12 @@ export default function FeaturesTab() {
               className={`${activeBorder} last: border-t border-slate-300 py-1 text-base  sm:border-b sm:border-t-0 
               `}
             >
-              <button
+              <Buttons
                 type="button"
-                className={`${activeBorder} border-b sm:mx-4 sm:border-b-0`}
-                onClick={() => setCurrentTab(index)}
-              >
-                {tab.tabButton}
-              </button>
+                btnClass={`${activeBorder} border-b sm:mx-4 sm:border-b-0 hover:text-soft-red`}
+                text={tab.tabButton}
+                handleClick={() => setCurrentTab(index)}
+              />
             </li>
           );
         })}
@@ -46,12 +46,11 @@ export default function FeaturesTab() {
             {title}
           </h3>
           <p className="text-body mb-3">{desc}</p>
-          <button
+          <Buttons
             type="button"
-            className="hidden rounded-md bg-soft-blue p-2 text-sm text-white lg:block"
-          >
-            More info
-          </button>
+            btnClass="hidden rounded-md bg-soft-blue p-2 text-sm text-white lg:block"
+            text="More info"
+          />
         </div>
       </div>
     </section>
