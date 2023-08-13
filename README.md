@@ -2,14 +2,30 @@
 
 ![Design preview for the Bookmark landing page](./public/desktop-preview.jpg)
 
-## TODOS
+Live Site: [https://bookmarklandingpage00.netlify.app/](https://bookmarklandingpage00.netlify.app/)
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Receive an error message when the newsletter form is submitted if:
-  - The input field is empty
-  - The email address is not formatted correctly
-- Create the rounded blue background shape with code
-- Change the `fill` and `stroke` color of the SVGs at specific points 
+## Get Started
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+Install dependencies
+
+```bash
+npm install
+```
+
+Run in you local machine
+
+```bash
+npm run dev
+```
+
+Build and test live site
+
+```bash
+npm run build && npm run preview
+```
+
+Note: Any changes must be done at src/ folder do not touch the created dist/ folder
+
+## License
+
+Read [MIT License](https://github.com/AlwinJun/bookmark-landing-page/blob/main/LICENSE) for more info.
