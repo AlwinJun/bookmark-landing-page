@@ -7,7 +7,7 @@ import dots from "images/bg-dots.svg";
 
 export default function DownloadExtensions() {
   return (
-    <section className="download-at my-8  mt-14">
+    <section className="download-at my-8  mt-14 scroll-mt-20" id="pricing">
       <h2> Download the extension</h2>
       <p className="text-body mx-auto sm:w-3/4">
         We’ve got more browsers in the pipeline. Please do let us know if you’ve

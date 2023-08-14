@@ -9,7 +9,7 @@ export default function FeaturesTab() {
   const { image, title, desc } = tabs[currentTab];
 
   return (
-    <section className="features my-8">
+    <section className="features my-8 scroll-mt-20" id="features">
       <h2>Features</h2>
       <p className="text-body mx-auto mb-8 sm:w-3/4">
         Our aim is to make it quick and easy for you to access your favourite

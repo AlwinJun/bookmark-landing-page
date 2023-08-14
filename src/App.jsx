@@ -9,10 +9,12 @@ function App() {
   return (
     <div className="font-rubic text-grayish-blue" id="top">
       <Hero />
-      <FeaturesTab />
-      <DownloadExtensions />
-      <FAQs />
-      <Contact />
+      <main>
+        <FeaturesTab />
+        <DownloadExtensions />
+        <FAQs />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

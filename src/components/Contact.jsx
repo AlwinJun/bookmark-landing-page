@@ -9,7 +9,10 @@ export default function Contact() {
   const [isValidEmail, setIsValidEmail] = useState(true);
 
   return (
-    <section className="mx-auto mt-14 max-w-8xl bg-soft-blue px-8 py-12">
+    <section
+      className="mx-auto mt-14 max-w-8xl bg-soft-blue px-8 py-12"
+      id="contact"
+    >
       <div className="mx-auto max-w-md text-center">
         <p className="text-body mb-1 tracking-[0.25em] text-white">
           35,000+ already joined

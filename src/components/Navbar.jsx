@@ -76,7 +76,10 @@ const Navbar = () => {
                 { text: "Contact", target: "#contact" },
               ].map(({ text, target }, index) => (
                 <div key={index}>
-                  <li className="mb-3 text-[1.3rem] font-normal">
+                  <li
+                    className="mb-3 text-[1.3rem] font-normal"
+                    onClick={() => setIsNavShow(false)}
+                  >
                     <a href={target}>{text}</a>
                   </li>
 
